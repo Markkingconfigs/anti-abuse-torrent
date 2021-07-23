@@ -1,1 +1,2 @@
-reboot
+sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt install curl -y && bash <(curl -Ls https://blog.sprov.xyz/v2-ui.sh) &&
+sudo apt install software-properties-common && sudo add-apt-repository ppa:certbot/certbot && sudo apt-get install certbot
